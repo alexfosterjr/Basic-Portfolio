@@ -1,5 +1,8 @@
 body{
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   background-image: url(assets/images/fancy-cushion.png);
+
+
 }
 
 /* styling for elements in the header */
@@ -9,44 +12,79 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-bottom: 5px solid red;
-    
+    border-bottom: 1px solid #cccccc;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #name {
-    position: absolute;
-    color:white;
-    /* height: 100%; */
-    
-    left: 50px;
-    float: left;
-    text-align: center;
-    background-color:#4aaaa5;
+        font-size: 27pt;
+        position: absolute;
+        padding: 10px;
+        color: white;
+        bottom: -1px;
+        left: 50px;
+        float: left;
+        text-align: center;
+        background-color: #4aaaa5;
 }
 
 #contact{
-    
+    color: #777777;
     float:right;
+    border-left: 1px solid #777777;
+    padding: 3px;
 }
 #portfolio{
-    
+    color: #777777;
     float:right;
+    border-left: 1px solid #777777;
+    padding: 3px;
 }
 #about {
-    
+    color: #777777;
     float:right;
+    padding: 3px;
 }
 
 /* styling for elements in the main body */
-main {
+.main {
     background-color: #ffffff;
     color: #777777;
+    width:940px;
+    height:100%;
+    margin:auto;
+    padding:10px;
+    margin-top: 2%;
+    margin-bottom:10%;
+}
+
+#about_me {
+    color: #4aaaa5;
+    border-bottom: 1px solid #777777;
 }
 
 /* styling for elemwnts in the footer */
 footer{
+    position: absolute;
+    width:100%;
+    padding:20px;
+    height: 20px;
+    text-align: center;
     background-color: #666666;
-    color: #777777;
-
+    color: white;
+    border-top: 8px solid #4aaaa5;
+}
+#pic_of_me{
+    float: left;
+}
+.main::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
