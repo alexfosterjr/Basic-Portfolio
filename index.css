@@ -78,9 +78,12 @@ footer{
     background-color: #666666;
     color: white;
     border-top: 8px solid #4aaaa5;
+    font-size: 8pt;
 }
+
 #pic_of_me{
     float: left;
+    padding:1%;
 }
 .main::after {
     content: "";
