@@ -1,7 +1,9 @@
+/* If i were to do this page over againI would have made the links at the top of the page. Also if i had links i would make  */
+
 body{
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    background-image: url(assets/images/fancy-cushion.png);
-
+    height: auto;
 
 }
 
@@ -33,19 +35,19 @@ header {
         background-color: #4aaaa5;
 }
 
-#contact{
+.contact{
     color: #777777;
     float:right;
     border-left: 1px solid #777777;
     padding: 3px;
 }
-#portfolio{
+.portfolio{
     color: #777777;
     float:right;
     border-left: 1px solid #777777;
     padding: 3px;
 }
-#about {
+.about {
     color: #777777;
     float:right;
     padding: 3px;
@@ -91,3 +93,36 @@ footer{
     display: table;
 }
 
+/* Added styling for contact page */
+
+#message{
+    height:200px;
+}
+
+.button{
+    background-color: #4aaaa5;
+}
+
+.infowidth{
+    width:940px;
+}
+
+/* added styling for portfolio page */
+
+.bridge{
+    float:left;
+    position: relative;
+    margin:10px;
+    background-image: url("https://picsum.photos/200")
+}
+
+.title {
+    position: absolute;
+    Background-color: #4aaaa5;
+    width:200px;
+    color: white;
+    text-align:center;
+    bottom:10px;
+    
+
+}
